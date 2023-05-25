@@ -1,5 +1,11 @@
 # portFlora
 
+## Description 
+This is my portfolio made with the technologies HTML and CSS. 
+
+## Deployed application 
+https://florabernardo62.github.io/portFlora/
+
 ## User Story
 AS AN employer
 I WANT to view a potential employee's deployed portfolio of work samples
