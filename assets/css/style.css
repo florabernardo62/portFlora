@@ -1,0 +1,203 @@
+/* general setting */
+* {
+    box-sizing: border-box;
+    background-color: rgb(241, 248, 241);
+    padding: 0;
+    margin: 0; 
+    font-family: 'Times New Roman', Times, serif
+}
+
+header {
+    font-variant: small-caps; 
+    line-height: 5%;
+}
+
+article {
+    display: inline-block;
+    margin-top: 3%;
+}
+
+ul {
+    font-variant: small-caps; 
+    font-size: 130%;
+    margin-top: 7%;
+    margin-left: 5%;
+    list-style: none;
+
+ 
+}
+
+a {
+    color: #000000;
+    
+}
+
+aside{
+    font-size: 178%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+/* title settings */
+
+.port {
+    font-size: 1060%;
+    margin-top: 1%;
+    margin-left: 35%;
+    
+    
+}
+
+.smiley {
+    margin-left: 1%;
+    margin-top: 3%;
+    width: 12%;
+    height: auto;  
+
+}
+
+
+.flower {
+    margin-left: 1%;
+    margin-top: 1%;
+    width: 23%;
+    height: auto;
+}
+
+.flora {
+    font-size: 1660%;
+    margin-left: 35%; 
+    margin-top: 1%;
+}
+.subtitle {
+    margin-left: 50%; 
+    margin-top: 2%;
+}
+.part{
+    display: inline-flex;
+}
+/* screenshots size setting */
+.comingSoon0 {
+    
+    margin-top: 5%;
+    margin-bottom: 2%;
+    width: 75%;
+    height: auto;
+}
+.pair {
+    display: list-item;
+}
+.floraverso {
+    margin-left: 18%;
+}
+.comingSoon {
+    margin-left: 10%;
+    margin-bottom: 2%;
+    width: 30%;
+    height: auto;
+}
+.comingSoon2 {
+    margin-left: 2%;
+    margin-bottom: 2%;
+    width: 30%;
+    height: auto;
+}
+.about-me{
+    display: inline-flex;
+    font-size: 120%;
+    text-align: center;
+    margin-left:10%;
+}
+.firstIcon {
+    margin-left: 2%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    width: 15%;
+    height: auto;
+    
+}
+
+.secondIcon {
+    margin-left: 10%;
+    margin-bottom: 2%;
+    width: 15%;
+    height: auto;
+   
+}
+
+.contactMe {
+    display: inline-flex;
+}
+/* size setting for logos */
+.emailLogo,
+.phoneLogo, 
+.gitHubLogo,
+.linkedinLogo {
+    margin-top: 2%;
+    margin-left: 12%;
+    width: 10%;
+    height: auto;
+    
+}
+/* add font editing for sections titles */
+#personal-projects,
+#other-projects,
+#about-me,
+#contact-me {
+    font-variant: small-caps; 
+    font-size: 300%;
+    margin-left: 5%;
+    
+}
+
+/*WHEN I resize the page or view the site on various screens and devices,
+THEN I am presented with a responsive layout that adapts to my viewport */
+
+@media screen and (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    .port {
+        font-size: 800%;
+        margin-left: 25%;
+    }
+
+    .flora {
+        font-size: 1200%;
+        margin-left: 25%;
+    }
+
+    .subtitle {
+        margin-left: 40%;
+    }
+
+    .comingSoon0,
+    .comingSoon,
+    .comingSoon2 {
+        width: 70%;
+    }
+
+    .about-me {
+        display: block;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .firstIcon,
+    .secondIcon {
+        margin-left: 0;
+    }
+
+    .emailLogo,
+    .phoneLogo,
+    .instagramLogo,
+    .linkedinLogo {
+        margin-left: 5%;
+        width: 15%;
+    }
+
+    #personal-projects,
+    #other-projects,
+    #about-me,
+    #contact-me {
+        font-size: 200%;
+        margin-left: 0;
+    }
+}
